@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - PhoneCo</title>
+  <link rel="stylesheet" href="styles/site.css">
+  <link rel="icon" type="image/x-icon" href="/logos/cropped.ico">
+</head>
+
+<body>
+
+  <header>
+    <picture>
+      <img src="logos/cropped.jpg" alt="PhoneCo Logo" class="logo">
+    </picture>
+
+    <button id="hamburger-button" class="hidden">
+      <img src="images/hamburger-menu.png" alt=" hamburger menu" id="hamburger-img" class="hidden">
+    </button>
+
+    <nav id="menu" class="menu">
+
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+  <div class="container">
+    <div class="main-box">
+      <section>
+        <h1>Contact Us</h1>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est
+          laborum."</p>
+      </section>
+
+      <section>
+        <form action="action_page.php">
+
+          <label for="fname">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+
+          <label for="reason">Reason for contacting</label>
+          <select id="reason" name="reason">
+            <option value="buy">Buy Device</option>
+            <option value="sell">Sell Device</option>
+            <option value="support">Customer Support</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit" id="submit">
+
+        </form>
+      </section>
+    </div>
+    <div class="sidebar-box">
+      <dl>
+        <dt>iPhone 12</dt>
+        <dd>64gb - $252</dd>
+        <dd>128gb - $273</dd>
+        <dd>256gb - $294</dd>
+        <dt>iPhone SE 2022</dt>
+        <dd>64gb - $81</dd>
+        <dd>128gb - $111</dd>
+        <dt>iPhone 13</dt>
+        <dd>128gb - $404</dd>
+        <dd>256gb - $420</dd>
+        <dd>512gb - $451</dd>
+        <dt>Galaxy S21 5G</dt>
+        <dd>128gb - $180</dd>
+        <dd>256gb - $189</dd>
+        <dt>Galaxy S21 Ultra 5G</dt>
+        <dd>128gb - $276</dd>
+        <dd>256gb - $320</dd>
+        <dd>512gb - $350</dd>
+        <dt>Google Pixel 6</dt>
+        <dd>128gb - $136</dd>
+        <dd>256gb - $149</dd>
+        <dt>Galaxy S20 FE 5G</dt>
+        <dd>128gb - $119</dd>
+        <dd>256gb - $89</dd>
+        <dt>Google Pixel 5</dt>
+        <dd>128gb - $88</dd>
+        <dt>Google Pixel 7</dt>
+        <dd>128gb - $240</dd>
+        <dd>256gb - $253</dd>
+      </dl>
+    </div>
+  </div>
+
+  <footer>
+    <section>
+      <h2>PhoneCo</h2>
+      <p>Copyright 2024, PhoneCo</p>
+    </section>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="scripts/jquery-3.7.1.js"></script>
+  <script src="scripts/hamburger.js"></script>
+
+</body>
+
+</html>
